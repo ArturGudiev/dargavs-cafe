@@ -1,10 +1,21 @@
+"use client"
+
 import { Autoplay, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Book from './SpecialDish'
 import specialDishes from '@/utils/specialDishes'
 import styles from '@/styles/components/SpecialDishes.module.scss'
+import { Modal } from "react-responsive-modal";
+import { useState } from 'react'
+
+const styles2 = {
+  fontFamily: "sans-serif",
+  textAlign: "center"
+};
 
 function SpecialDishes() {
+  const [showModal, setShowModal] = useState(false);
+  
   return (
     <section className={styles.home} id='home'>
       <Swiper
@@ -34,6 +45,16 @@ function SpecialDishes() {
         })}
         <div className='swiper-pagination' />
       </Swiper>
+
+      <Modal open={true} onClose={() => showModal = false}>
+          <h2>Simple centered modal</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
+            hendrerit risus, sed porttitor quam.
+          </p>
+        </Modal>
+
     </section>
   )
 }

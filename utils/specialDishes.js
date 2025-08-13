@@ -2,10 +2,10 @@ const sliderItems = [
   {
     id: '1',
     title: 'Кафе под открытым небом',
-    subtitle: 'our special dish',
+    subtitle: 'Приглашаем вас в',
     description:
-      'Наслаждайтесь вкусной едой и красивым видом в нашем кафе под открытым небом.',
-    img: 'images/home-img-11.png'
+      'Наслаждайтесь вкусной едой и красивым видом в нашем заведении.',
+    img: 'images/tent.jpg'
   },
   {
     id: '2',
@@ -17,11 +17,11 @@ const sliderItems = [
   },
   {
     id: '3',
-    title: 'hot pizza',
-    subtitle: 'our special dish',
+    title: 'Рыбалка у озера',
+    subtitle: 'Для досуга',
     description:
-      'Pizza ipsum dolor amet mushrooms Chicago style string cheese.',
-    img: 'images/home-img-3.png'
+      '',
+    img: 'images/home-img-11.png'
   }
 ]
 

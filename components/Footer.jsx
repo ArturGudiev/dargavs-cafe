@@ -3,7 +3,7 @@ import styles from '@/styles/components/Footer.module.scss'
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.footer__container}>
+      {/* <div className={styles.footer__container}>
         <div className={styles.footer__column}>
           <h3 className={styles.title}>locations</h3>
           <a href='#' className={styles.footer__link}>
@@ -76,9 +76,9 @@ function Footer() {
             linkedin
           </a>
         </div>
-      </div>
+      </div> */}
       <div className={styles.footer__credit}>
-        Copyright @ 2021 by{' '}
+        Copyright @ 2025 by{' '}
         <a
           target='_blank'
           rel='noreferrer'

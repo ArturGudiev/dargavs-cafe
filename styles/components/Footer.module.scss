@@ -4,7 +4,9 @@
   flex-direction: column;
   padding: 1rem 7%;
   background: var(--white);
-
+  height: 20rem;
+  flex-flow: column;
+  justify-content: flex-end;
   &__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));

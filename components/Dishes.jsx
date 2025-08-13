@@ -5,7 +5,7 @@ import styles from '@/styles/components/Dishes.module.scss'
 function Dishes() {
   return (
     <section className={styles.dishes} id='dishes'>
-      <h3 className='sub-heading'>Наши блюда</h3>
+      <h3 className='sub-heading'>Наши</h3>
       <h1 className='heading'>Популярные блюда</h1>
       <div className={styles['dishes__container']}>
         {dishList.map((item, index) => {

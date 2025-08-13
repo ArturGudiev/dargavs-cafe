@@ -2,7 +2,7 @@ const dishList = [
   {
     id: 1,
     title: 'Осетинские пироги',
-    img: 'images/dish-1.png',
+    img: 'images/pie.jpeg',
     rating: '4.5',
     detailed: true,
     favorited: true,
@@ -11,7 +11,7 @@ const dishList = [
   {
     id: 2,
     title: 'Лывзæ',
-    img: 'images/dish-2.png',
+    img: 'images/livza.jpeg',
     rating: '4.5',
     detailed: true,
     favorited: true,
@@ -20,7 +20,7 @@ const dishList = [
   {
     id: 3,
     title: 'Отварная говядина',
-    img: 'images/dish-3.png',
+    img: 'images/meat.webp',
     rating: '4.5',
     detailed: true,
     favorited: true,
@@ -28,8 +28,8 @@ const dishList = [
   },
   {
     id: 4,
-    title: 'Hot pizza',
-    img: 'images/dish-4.png',
+    title: 'Дзыкка',
+    img: 'images/popular_dzikka.webp',
     rating: '4.5',
     detailed: true,
     favorited: true,
@@ -37,8 +37,8 @@ const dishList = [
   },
   {
     id: 5,
-    title: 'ice cream cookies',
-    img: 'images/dish-5.png',
+    title: 'Люля',
+    img: 'images/popular5.jpeg',
     rating: '4.5',
     detailed: true,
     favorited: true,

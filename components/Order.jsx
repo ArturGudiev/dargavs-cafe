@@ -4,9 +4,17 @@ import styles from '@/styles/components/Order.module.scss'
 function Order() {
   return (
     <section className={styles.order} id='order'>
-      <h3 className='sub-heading'>order now</h3>
-      <h1 className='heading'>free and fast</h1>
-      <form action='#' className={styles.form}>
+      <h3 className='sub-heading'>Приезжайте</h3>
+      <h1 className='heading'>Как до нас добраться</h1>
+      <div className="images-container" style={{display: 'flex', justifyContent: 'space-around'}}>
+        <div className={styles['special-dish__image']}>
+                <img src="images/road_Dargavs.jpg" style={{width: '50rem'}} alt='Dargavs' />
+              </div>
+        <div className={styles['special-dish__image']}>
+          <img src="images/map.png" style={{width: '75rem'}} alt='Dargavs' />
+        </div>
+      </div>
+      {/* <form action='#' className={styles.form}>
         <div className={styles.order__container}>
           <div className={styles.form__item}>
             <span className={styles.label}>your name</span>
@@ -90,7 +98,7 @@ function Order() {
           value='order now'
           className={classNames('button', styles.button)}
         />
-      </form>
+      </form> */}
     </section>
   )
 }

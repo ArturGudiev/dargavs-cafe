@@ -7,10 +7,17 @@ import styles from '@/styles/components/Reviews.module.scss'
 function Reviews() {
   return (
     <section className={styles.reviews} id='reviews'>
-      <h3 className='sub-heading'>customer&apos;s review</h3>
-      <h1 className='heading'>what they say</h1>
-      <div className={styles.reviews__container}>
-        <Swiper
+      <h3 className='sub-heading'>Контакты</h3>
+      <h1 className='heading'>Вы можете связаться с нами</h1>
+
+      
+
+        <p className={styles['special-dish__description']}>+7 988 874 ** ** (Telegram, WA)</p>
+
+
+      {/* <div >+7 900 321 45 67 (Whatsapp, Telegram)</div> */}
+      {/* <div className={styles.reviews__container}> */}
+        {/* <Swiper
           key="swiper-review"
           className={styles.reviews__swiper}
           modules={[Autoplay]}
@@ -44,8 +51,8 @@ function Reviews() {
               </SwiperSlide>
             )
           })}
-        </Swiper>
-      </div>
+        </Swiper> */}
+      {/* </div> */}
     </section>
   )
 }

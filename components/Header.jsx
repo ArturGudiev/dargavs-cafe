@@ -80,13 +80,13 @@ function Header() {
           className={classNames('fas fa-bars', styles.menu)}
           onClick={onMenuClick}
         />
-        <span
+        {/* <span
           id='search-icon'
           className={classNames('fas fa-search', styles.search)}
           onClick={() => setToggleSearch(true)}
-        />
+        /> */}
         <span className='fas fa-heart' />
-        <span className='fas fa-shopping-cart' />
+        {/* <span className='fas fa-shopping-cart' /> */}
       </div>
       <SearchForm
         active={toggleSearch}

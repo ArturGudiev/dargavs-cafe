@@ -1,0 +1,205 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.modal {
+  background: var(--white);
+  border-radius: 1.5rem;
+  padding: 3rem;
+  max-width: 50rem;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  animation: slideIn 0.3s ease-out;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
+}
+
+.closeButton {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--light-color);
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+
+  &:hover {
+    background: var(--grey);
+    color: var(--black);
+  }
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  color: var(--light-color);
+  margin-bottom: 3rem;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  background: var(--grey);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 2px solid transparent;
+
+  &:hover {
+    background: var(--white);
+    border-color: var(--green);
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1.5rem rgba(39, 174, 96, 0.2);
+  }
+}
+
+.icon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-right: 2rem;
+  flex-shrink: 0;
+
+  .fab.fa-whatsapp {
+    color: #25d366;
+  }
+
+  .fab.fa-telegram-plane {
+    color: #0088cc;
+  }
+
+  .fas.fa-phone {
+    color: var(--green);
+  }
+}
+
+.info {
+  flex: 1;
+  text-align: left;
+
+  h3 {
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 1.6rem;
+    color: var(--light-color);
+    margin: 0;
+  }
+}
+
+.arrow {
+  font-size: 2rem;
+  color: var(--green);
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.footer {
+  padding-top: 2rem;
+  border-top: 1px solid var(--grey);
+
+  p {
+    font-size: 1.6rem;
+    color: var(--light-color);
+    margin: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal {
+    padding: 2rem;
+    margin: 1rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.6rem;
+  }
+
+  .contactItem {
+    padding: 1.5rem;
+  }
+
+  .icon {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+  }
+
+  .info h3 {
+    font-size: 1.8rem;
+  }
+
+  .info p {
+    font-size: 1.4rem;
+  }
+}

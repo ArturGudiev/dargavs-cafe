@@ -4,7 +4,7 @@ function About() {
   return (
     <section className={styles.about} id='about'>
       <h3 className='sub-heading'>О нас</h3>
-      <h1 className='heading'>why choose us?</h1>
+      {/* <h1 className='heading'>В нашем кафе будет</h1> */}
 
       <div className={styles.about__row}>
         <div className={styles.about__image}>
@@ -27,7 +27,7 @@ function About() {
             erat ut ex.
           </p>
           <div className={styles.about__container}>
-            <div className={styles.about__icon}>
+            {/* <div className={styles.about__icon}>
               <i className='fas fa fa-shipping-fast'></i>
               <span>free delivery</span>
             </div>
@@ -38,11 +38,11 @@ function About() {
             <div className={styles.about__icon}>
               <i className='fas fa fa-headset'></i>
               <span>24/7 service</span>
-            </div>
+            </div> */}
           </div>
-          <a href='#' className='button'>
+          {/* <a href='#' className='button'>
             learn more
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

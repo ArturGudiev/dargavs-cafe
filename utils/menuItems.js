@@ -31,7 +31,7 @@ const menuItems = [
   },
   {
     id: 6,
-    name: 'Заказать',
+    name: 'Адрес',
     href: '#order',
     active: false
   }
