@@ -51,7 +51,7 @@ function Header() {
     <header className={styles.header}>
       <a href='#' className={styles.header__logo}>
         <span className='fas fa-utensils' />
-        resto.
+        Даргавс кафе.
       </a>
       <nav
         id='nav'

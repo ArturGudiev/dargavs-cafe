@@ -1,6 +1,6 @@
 import { Autoplay, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import SpecialDish from './SpecialDish'
+import Book from './SpecialDish'
 import specialDishes from '@/utils/specialDishes'
 import styles from '@/styles/components/SpecialDishes.module.scss'
 
@@ -28,7 +28,7 @@ function SpecialDishes() {
         {specialDishes.map((item, index) => {
           return (
             <SwiperSlide key={index}>
-              <SpecialDish {...item} />
+              <Book {...item} />
             </SwiperSlide>
           )
         })}

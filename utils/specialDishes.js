@@ -1,19 +1,19 @@
 const sliderItems = [
   {
     id: '1',
-    title: 'spicy noodles',
+    title: 'Кафе под открытым небом',
     subtitle: 'our special dish',
     description:
-      'Soy sauce salt miso butter roasted pork slices flavoured.',
-    img: 'images/home-img-1.png'
+      'Наслаждайтесь вкусной едой и красивым видом в нашем кафе под открытым небом.',
+    img: 'images/home-img-11.png'
   },
   {
     id: '2',
-    title: 'fried chicken',
-    subtitle: 'our special dish',
+    title: 'Своя беседка',
+    subtitle: 'Также доступно',
     description:
-      'Bacon ipsum dolor amet short ribs brisket venison drumstick.',
-    img: 'images/home-img-2.png'
+      'Закажите свою беседку и наслаждайтесь своей компанией в уютном месте.',
+    img: 'images/home-img-12.png'
   },
   {
     id: '3',

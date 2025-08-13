@@ -1,37 +1,37 @@
 const menuItems = [
   {
     id: 1,
-    name: 'home',
+    name: 'Главная',
     href: '#home',
     active: true
   },
   {
     id: 2,
-    name: 'dishes',
+    name: 'Меню',
     href: '#dishes',
     active: false
   },
   {
     id: 3,
-    name: 'about',
+    name: 'О нас',
     href: '#about',
     active: false
   },
   {
     id: 4,
-    name: 'menu',
+    name: 'Отзывы',
     href: '#menu',
     active: false
   },
   {
     id: 5,
-    name: 'reviews',
+    name: 'Контакты',
     href: '#reviews',
     active: false
   },
   {
     id: 6,
-    name: 'order',
+    name: 'Заказать',
     href: '#order',
     active: false
   }

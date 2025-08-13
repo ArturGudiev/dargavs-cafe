@@ -1,25 +1,25 @@
 const dishList = [
   {
     id: 1,
-    title: 'hamburger',
+    title: 'Осетинские пироги',
     img: 'images/dish-1.png',
     rating: '4.5',
     detailed: true,
     favorited: true,
-    price: '15.99'
+    price: '500'
   },
   {
     id: 2,
-    title: 'Chicken nuggets',
+    title: 'Лывзæ',
     img: 'images/dish-2.png',
     rating: '4.5',
     detailed: true,
     favorited: true,
-    price: '15.99'
+    price: '32'
   },
   {
     id: 3,
-    title: 'Fried chicken',
+    title: 'Отварная говядина',
     img: 'images/dish-3.png',
     rating: '4.5',
     detailed: true,
