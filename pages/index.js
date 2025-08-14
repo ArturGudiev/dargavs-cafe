@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>React responsive restaurant landing page</title>
+        <title>Кафе в Даргавсе</title>
         <meta
-          name='description'
-          content='React responsive restaurant landing page'
+          name='Даргавс кафе'
+          content='Кафе под открытым небом в горах Осетии'
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
